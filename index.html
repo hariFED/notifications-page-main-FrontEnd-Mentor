@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Frontend Mentor | Notifications page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,500;1,500&display=swap"
+    rel="stylesheet">
+
+
+  <style>
+    * {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="sm:bg-[#dde7ee]">
+  <div class="sm:mx-auto sm:w-[45rem] sm:bg-[#ffffff] sm:mt-6 sm:p-10 text-sm ">
+
+    <section class="header m-5">
+      <div class="container flex justify-between">
+        <p class="text-xl sm:text-2xl font-bold sm:font-extrabold">Notifications <span
+            class="px-4 ml-2 rounded-lg text-white bg-blue-900 sm:text-xl">3</span></p>
+        <p class="hover:text-[#0a317b] cursor-pointer  text-[#5e6778]">Mark all as read</p>
+      </div>
+    </section>
+    <section class="messages m-2">
+      <div class="profile_pic rounded-lg flex justify-start items-start  gap-4 m-2 p-4 bg-[#f7fafd]">
+        <img src="./assets/images/avatar-mark-webber.webp" alt="Mark-Webber" class="pl-2 w-[13%] sm:w-[8%]">
+        <div class="notification-msg">
+          <div class="msg-1">
+            <p class="hover:text-[#0a317b] cursor-pointer"><b>Mark Webber </b> <span class="text-[#5e6778]"> &nbsp;
+                reacted to your recent post </span>
+              <span class="text-[#5e6778] font-semibold hover:text-[#0a317b] cursor-pointer  "> My first
+                tournament
+                today! &nbsp;</span> <span
+                class=" inline-flex items-center justify-center rounded-full bg-red-500  border-red-500 border-4"></span>
+            </p>
+            <p class="text-[#939dae]">1m ago</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="messages-2 m-2">
+      <div class="profile_pic rounded-lg flex justify-start items-start  gap-4 m-2 p-4 bg-[#f7fafd]">
+        <img src="./assets/images/avatar-angela-gray.webp" alt="Mark-Webber" class="pl-2 w-[13%] sm:w-[8%]">
+        <div class="notification-msg">
+          <div class="msg-1">
+            <p class="hover:text-[#0a317b] cursor-pointer"><b>Angela Gray </b> <span class="text-[#5e6778]"> &nbsp;
+                followed you &nbsp; </span> <span
+                class=" inline-flex items-center justify-center rounded-full bg-red-500  border-red-500 border-4"></span>
+            </p>
+            <p class="text-[#939dae]">5m ago</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="messages-3 m-2">
+      <div class="profile_pic rounded-lg flex justify-start items-start  gap-4 m-2 p-4 bg-[#f7fafd]">
+        <img src="./assets/images/avatar-jacob-thompson.webp" alt="Mark-Webber" class="pl-2 w-[13%] sm:w-[8%]">
+        <div class="notification-msg">
+          <div class="msg-1">
+            <p class="hover:text-[#0a317b] cursor-pointer"><b>Jacob Thompson</b> <span class="text-[#5e6778]"> &nbsp;
+                has joined your group </span> <span class="text-[#0a317b] font-semibold">
+                Chess Club &nbsp; </span><span
+                class="inline-flex items-center justify-center rounded-full bg-red-500  border-red-500 border-4"></span>
+            </p>
+            <p class=" text-sm text-[#939dae]">1 day ago</p>
+          </div>
+        </div>
+    </section>
+
+
+    <section class="messages-4 m-2">
+      <div class="profile_pic rounded-lg flex justify-start items-start  gap-4 m-2 p-4 ">
+        <img src="./assets/images/avatar-rizky-hasanuddin.webp" alt="Mark-Webber" class="pl-2 w-[13%] sm:w-[8%]">
+        <div class="notification-msg">
+          <div class="msg-1">
+            <p class="hover:text-[#0a317b] cursor-pointer"><b>Rizky Hasanuddin</b> <span class="text-[#5e6778]"> &nbsp;
+                sent you a private message &nbsp; </span>
+            <p class=" text-sm text-[#939dae]">5 day ago</p>
+          </div>
+          <div class="mt-2 border-2 p-4 text-sm text-[#5e6778] hover:bg-[#f7fafd] cursor-pointer">
+            <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+              I'm already having lots of fun and improving my game.</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="messages-5 m-2">
+      <div class="profile_pic rounded-lg flex justify-start items-start  gap-4 m-2 p-4  md:relative">
+        <img src="./assets/images/avatar-kimberly-smith.webp" alt="Mark-Webber" class="pl-2 w-[15%] sm:w-[8%]">
+        <div class="flex sm:gap-[5rem]">
+          <div class=" notification-msg">
+            <div class="msg-1 flex flex-col">
+              <p class="hover:text-[#0a317b] cursor-pointer"><b>Kimberly Smith</b> <span class="text-[#5e6778]"> &nbsp;
+                  commented on your picture &nbsp; </span></p>
+              <p class="text-sm text-[#939dae]">1 week ago</p>
+            </div>
+
+
+          </div>
+          <div class="sm:flex sm:justify-end">
+            <img class=" sm:w-10 sm:ml-16 w-14" src="./assets/images/image-chess.webp" alt="chess-img">
+          </div>
+        </div>
+    </section>
+
+    <section class="messages-6 m-2">
+      <div class="profile_pic rounded-lg flex justify-start items-start  gap-4 m-2 p-4 ">
+        <img src="./assets/images/avatar-nathan-peterson.webp" alt="Mark-Webber" class="pl-2 w-[13%] sm:w-[8%]">
+        <div class="notification-msg">
+          <div class="msg-1">
+            <p class="hover:text-[#0a317b] cursor-pointer"><b>Nathan Peterson</b> <span class="text-[#5e6778]"> &nbsp;
+                reacted to your recent post &nbsp; <span class="font-semibold hover:text-[#0a317b] cursor-pointer">5
+                  end-game strategies to increase your
+                  win rate</span> </span>
+            <p class="text-[#939dae]">2 weeks ago</p>
+          </div>
+
+        </div>
+    </section>
+
+    <section class="messages-3 m-2">
+      <div class="profile_pic rounded-lg flex justify-start items-start  gap-4 m-2 p-4">
+        <img src="./assets/images/avatar-anna-kim.webp" alt="Mark-Webber" class="pl-2 w-[13%] sm:w-[8%]">
+        <div class="notification-msg">
+          <div class="msg-1">
+            <p class="hover:text-[#0a317b] cursor-pointer"><b>Anna Kim</b> <span class="text-[#5e6778]"> &nbsp; left the
+                group </span> <span class="text-[#0a317b] font-semibold hover:text-[#0a317b] cursor-pointer">
+                Chess Club &nbsp; </span>
+            </p>
+            <p class=" text-sm text-[#939dae]">2 weeks ago</p>
+          </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
